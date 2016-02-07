@@ -30,4 +30,4 @@ PRODUCT_NAME := omni_peregrine
 PRODUCT_DEVICE := peregrine
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
-PRODUCT_MODEL := Moto G 2014 LTE
+PRODUCT_MODEL := Moto G LTE
