@@ -46,4 +46,4 @@ TW_INCLUDE_CRYPTO := true
 TW_INCLUDE_NTFS_3G := true
 TW_NO_USB_STORAGE := true
 TW_THEME := portrait_hdpi
-
+TW_EXCLUDE_MTP := true
