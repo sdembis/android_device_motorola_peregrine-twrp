@@ -48,9 +48,4 @@ TW_NO_USB_STORAGE := true
 TW_THEME := portrait_hdpi
 TW_EXCLUDE_MTP := true
 
-# DEBUG (BOTH needed to enable logcat)
-TWRP_INCLUDE_LOGCAT := true
-TARGET_USES_LOGD := true
-TARGET_RECOVERY_DEVICE_MODULES += strace
-
 
