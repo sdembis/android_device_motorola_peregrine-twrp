@@ -2,7 +2,7 @@
 
 /boot           emmc      /dev/block/platform/msm_sdcc.1/by-name/boot
 /cache          ext4      /dev/block/platform/msm_sdcc.1/by-name/cache
-/data           f2fs      /dev/block/platform/msm_sdcc.1/by-name/userdata             flags=fsflags="inline_xattr";length=-16384
+/data           f2fs      /dev/block/platform/msm_sdcc.1/by-name/userdata             flags=encryptable=footer;flags=fsflags="inline_xattr";length=-16384
 /firmware       ext4      /dev/block/platform/msm_sdcc.1/by-name/modem                flags=display="Firmware";fsflags=ro;mounttodecrypt
 /recovery       emmc      /dev/block/platform/msm_sdcc.1/by-name/recovery             flags=backup=1
 /misc           emmc      /dev/block/platform/msm_sdcc.1/by-name/misc
