@@ -23,7 +23,7 @@ BOARD_KERNEL_CMDLINE := androidboot.bootdevice=msm_sdcc.1 androidboot.hardware=q
 BOARD_KERNEL_PAGESIZE := 2048
 
 # LZMA compression for recovery's & kernel ramdisk....
-BOARD_CUSTOM_BOOTIMG_MK := device/motorola/peregrine/custombootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/motorola/omni_peregrine/custombootimg.mk
 BOARD_CANT_BUILD_RECOVERY_FROM_BOOT_PATCH := true
 
 # Implement LZMA Compression
