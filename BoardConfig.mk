@@ -22,6 +22,10 @@ BOARD_KERNEL_IMAGE_NAME := zImage
 BOARD_KERNEL_CMDLINE := androidboot.bootdevice=msm_sdcc.1 androidboot.hardware=qcom vmalloc=400M androidboot.selinux=permissive
 BOARD_KERNEL_PAGESIZE := 2048
 
+# Implement LZMA Compression
+LZMA_RAMDISK_TARGETS += recovery
+LZMA_RAMDISK_TARGETS += boot
+
 # Init
 TARGET_INCREASES_COLDBOOT_TIMEOUT := true
 
